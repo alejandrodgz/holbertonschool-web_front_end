@@ -18,13 +18,22 @@
     --font-weight-bold: 700;
  }
  html {scroll-behavior: smooth; font-size: 62.5%;}
-body {font-family: var(--font-family-base);
-    color: var(--color-primary); 
-    font-size: var(--font-size-medium); }
 
-h1, h2, h3, h4, h5, h6 {font-family: var(--font-family-title); }
+body {
+    font-family: var(--font-family-base);
+    color: var(--color-primary); 
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular); 
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: var(--font-family-title); font-weight: var(--font-weight-bold); }
+
 a {color: var(--color-primary); }
+
 .section-tagline {color: var(--color-primary); }
+
 .card-category {color: var(--color-primary); }
+
 .visually-hidden{display: none;}
+
 .card-category{color: #D73953;}
