@@ -87,7 +87,7 @@ a:active {background-color: var(--color-light-grey);}
 .button:hover {color: var(--button-hover-color); 
     text-decoration: var(--button-hover-text-decoration); 
     background-color: var(--button-hover-background);
-    transition: var(--transition-duration); transition-property: color, background-color;}
+    transition-duration: var(--transition-duration); transition-property: color, background-color;}
 
 .section-header {text-align: var(--section-header-align); padding: var(--section-header-padding); }
 
@@ -222,7 +222,7 @@ ul.row {margin: 0; padding: 0; list-style: none;}
 
 .card-work:hover .card-title {opacity: 1;}
 
-.card-work:hover .card-image {transform: scale(1.2); transition: var(--transition-duration), var(--transition-cubic-bezier); }
+.card-work:hover .card-image {transform: scale(1.2); transition: var(--transition-duration) var(--transition-cubic-bezier); }
 
 .card-work:hover .card-outer {transform: scale(0.95); transition: var(--transition-duration) var(--transition-cubic-bezier); }
 
