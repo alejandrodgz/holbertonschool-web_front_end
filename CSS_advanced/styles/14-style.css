@@ -57,6 +57,8 @@ a:active {background-color: var(--color-light-grey);}
     text-transform: var(--section-tagline-transform); 
     font-weight: var(--font-weight-bold); }
 
+.container {width: 960px; margin-left: auto; margin-left: auto;}
+
 .card-category {color: var(--color-primary); }
 
 .visually-hidden {display: none;}
