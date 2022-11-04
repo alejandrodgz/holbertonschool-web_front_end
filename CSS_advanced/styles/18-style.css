@@ -92,12 +92,13 @@ a:active {background-color: var(--color-light-grey);}
 
 .nav {margin: 0; padding: 0; list-style: none; text-align: center; }
 
-.nav-item {font-family: var(--nav-item-font-family);
+.nav .nav-item {font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
     }
-    nav.nav-link {display: block; padding: 50% 50%;}
-    nav.nav-link:hover {color: var(--nav-item-link-hover);}
+
+.nav .nav-link {display: block; padding: 50% 50%;}
+.nav .nav-link:hover {color: var(--nav-item-link-hover);}
