@@ -158,6 +158,8 @@ ul.row {margin: 0; padding: 0; list-style: none;}
 
 .card-services a:hover {color: var(--color-white); background-color: var(--color-primary); text-decoration: none; }
 
-.card-testimonial {text-align: center; border-radius: 50%; width: 10rem; height: 10rem; }
+.card-testimonial {text-align: center; }
 
-.card-testimonial .card-quote cite {padding: 1rem 0 0 0; color: var(--color-primary); display: block;}
+.card-testimonial .card-avatar {border-radius: 50%; width: 10rem; height: 10rem; }
+
+.card-testimonial .card-quote cite {padding: 1rem; color: var(--color-primary); display: block;}
