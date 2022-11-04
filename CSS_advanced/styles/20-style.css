@@ -115,4 +115,4 @@ ul.row {margin: 0; padding: 0; list-style: none;}
 
 .footer ul {text-align: right; }
 
-.row::after {content: none; display: table; float:none}
+.row::after:empty {display: table; clear: both;}
