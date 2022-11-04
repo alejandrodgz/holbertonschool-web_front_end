@@ -129,4 +129,4 @@ ul.row {margin: 0; padding: 0; list-style: none;}
 
 .social-link {display: block; }
 
-.social-link > svg {color: var(--text-color)}
+.social-link > svg {fill: var(--text-color)}
