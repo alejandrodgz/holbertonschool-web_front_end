@@ -121,6 +121,6 @@ ul.row {margin: 0; padding: 0; list-style: none;}
 
 [class^="col-"] {float: left; padding: 0.5rem;}
 
-.data-section-theme {--text-color:var(--color-white);
+[data-section-theme="dark"] {--text-color:var(--color-white);
     --section-title-color: var(--color-white); 
-    background-color: var(--color-black);}
+    background-color: var(--color-black); }
